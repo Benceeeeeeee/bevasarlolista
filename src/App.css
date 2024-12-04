@@ -1,0 +1,104 @@
+.shopping-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.input-group button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: green;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.product span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product button:first-of-type {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.product button:last-of-type {
+  background-color: red;
+  color: white;
+}
+
+.product button:last-of-type:hover {
+  background-color: red;
+}
+
+.product.purchased {
+  text-decoration: line-through;
+}
+
+.all-purchased {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
